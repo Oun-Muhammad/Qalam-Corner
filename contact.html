@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact | Qalam Corner</title>
+</head>
+<body data-page="contact">
+  <div id="hdr"></div>
+  <main class="wrap">
+    <section class="two">
+      <div>
+        <h1>Contact us</h1>
+        <p>Questions about an order or a bulk quote? Send a message.</p>
+        <p>Jamshoro, Sindh<br>Phone: 03192491251<br>Email: musabk315@gmail.com</p>
+      </div>
+      <div>
+        <div id="msg"></div>
+        <form onsubmit="send(event)" novalidate>
+          <label for="n">Name</label>
+          <input id="n" name="name" required data-msg="Enter your name">
+          <div class="err"></div>
+          <label for="e">Email</label>
+          <input id="e" name="email" type="email" required data-msg="Enter a valid email address">
+          <div class="err"></div>
+          <label for="m">Message</label>
+          <textarea id="m" name="message" rows="4" required data-msg="Write a short message"></textarea>
+          <div class="err"></div>
+<button class="btn" type="submit">Send message</button></form></div></section></main>
+<div id="ftr"></div><script src="script.js"></script></body></html>

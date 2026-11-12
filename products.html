@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Shop | Qalam Corner</title>
+</head>
+<body data-page="products">
+  <div id="hdr"></div>
+  <main class="wrap">
+    <section>
+      <h1>Shop</h1>
+      <div class="tools">
+        <input id="q" type="search" placeholder="Search products" aria-label="Search products">
+        <select id="cat" aria-label="Category">
+          <option value="">All categories</option>
+        </select>
+        <select id="sort" aria-label="Sort">
+          <option value="">Sort: default</option>
+          <option value="lo">Price: low to high</option>
+          <option value="hi">Price: high to low</option>
+        </select>
+      </div>
+      <div class="grid" id="list"></div>
+    </section>
+  </main>
+<div id="ftr"></div><script src="script.js"></script></body></html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><title>Cart | Qalam Corner</title></head><body data-page="cart"><div id="hdr"></div>
+<main class="wrap"><section><h1>Your cart</h1><div id="cartwrap">
+<table><thead><tr><th>Item</th><th>Qty</th><th>Price</th></tr></thead><tbody id="cartbody"></tbody></table>
+<p><b>Total: <span id="total"></span></b></p>
+<h2>Delivery details</h2><form onsubmit="order(event)" novalidate style="max-width:460px">
+<label for="n">Full name</label><input id="n" name="name" required data-msg="Enter your full name"><div class="err"></div>
+<label for="p">Phone</label><input id="p" name="phone" required data-msg="Enter a valid phone number (10 to 15 digits)"><div class="err"></div>
+<label for="a">Address</label><textarea id="a" name="address" rows="3" required data-msg="Enter your delivery address"></textarea><div class="err"></div>
+<button class="btn" type="submit">Place order</button></form></div></section></main>
+<div id="ftr"></div><script src="script.js"></script></body></html>
